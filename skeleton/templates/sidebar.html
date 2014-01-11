@@ -1,5 +1,4 @@
-<div class="three columns sidebar">
-    <nav>
+<section class="three columns">
         <h3 id="logo"><a href="{{ SITEURL }}">{{ SITENAME }}</a></h3>
         <ul>
         {% for p in PAGES %}
@@ -14,6 +13,4 @@
             <li><a href="{{ SITEURL }}/{{ cat.url|e }}">{{ cat }}</a></li>
             {% endfor %}
         </ul>
-    </nav>
-    &nbsp;
-</div>
+</section>
